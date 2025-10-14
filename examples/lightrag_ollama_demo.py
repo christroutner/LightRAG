@@ -12,7 +12,8 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "./book.txt"
+# WORKING_DIR = "./book.txt"
+WORKING_DIR = "./rag_storage"
 
 
 def configure_logging():
